@@ -12,4 +12,8 @@ public class Google {
 	public void register() {
 		System.out.println("register");
 	}
+	
+	public void logout() {
+		System.out.println("logout");
+	}
 }
