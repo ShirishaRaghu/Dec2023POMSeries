@@ -9,4 +9,8 @@ public class Google {
 		System.out.println("done");
 	}
 
+	public void frtpwd(){
+		System.out.println("frt pwd");
+	}
+
 }
