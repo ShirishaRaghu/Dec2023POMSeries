@@ -13,13 +13,18 @@ public class Google {
 		System.out.println("register");
 	}
 
-	
 	public void logout() {
 		System.out.println("logout");
 	}
 
 	public void search() {
 		System.out.println("search");
-
 	}
+
+	
+	public void addition() {
+		System.out.println("Addition");
+	}
+	
+	
 }
