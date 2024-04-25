@@ -27,4 +27,8 @@ public class Google {
 	}
 	
 	
+
+	public void substraction(){
+		System.out.println("Substraction");
+	}
 }
