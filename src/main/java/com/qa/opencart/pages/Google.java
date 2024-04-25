@@ -22,4 +22,8 @@ public class Google {
 		System.out.println("search");
 
 	}
+
+	public void substraction(){
+		System.out.println("Substraction");
+	}
 }
