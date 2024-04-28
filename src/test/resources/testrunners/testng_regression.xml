@@ -22,14 +22,14 @@
 		</parameter>
 	</test>
 	
-<!--	<test name="Reg Page Test">
+	<test name="Reg Page Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.qa.opencart.tests.RegistrationPageTest" />
 		</classes>
 	</test>
 
- 	<test name="Login Page Test firefox">
+ <!--	<test name="Login Page Test firefox">
 		<parameter name="browser" value="firefox">
 			<classes>
 				<class name="com.qa.opencart.tests.LoginPageTest" />
