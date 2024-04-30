@@ -59,7 +59,9 @@ public class ProductPageInfoTest extends BaseTest {
 	}
 
 	@Test
-	public void addToCart() {
+	public void addToCartTest() {
+		searchResultsPage = accPage.doSearch("macbook");
+		productinfopage = searchResultsPage.selectProduct("MacBook Pro");
 		productinfopage.addQuantityAndClick("1");
 		Assert.assertTrue(productinfopage.getSuccessMsg().contains("Success"));
 	}

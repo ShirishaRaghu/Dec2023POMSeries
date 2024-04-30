@@ -28,6 +28,15 @@
 			<class name="com.qa.opencart.tests.RegistrationPageTest" />
 		</classes>
 	</test>
+	
+	<test name="ProductInfo Page Test">
+		
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.opencart.tests.ProductPageInfoTest" />
+		</classes>
+	</test>
+
 
  <!--	<test name="Login Page Test firefox">
 		<parameter name="browser" value="firefox">
@@ -60,16 +69,9 @@
 		<classes>
 			<class name="com.qa.opencart.tests.SearchResultsPageTest" />
 		</classes>
-	</test>
-
-	<test name="ProductInfo Page Test">
-		
-		<parameter name="browser" value="chrome" />
-		<classes>
-			<class name="com.qa.opencart.tests.ProductPageInfoTest" />
-		</classes>
 	</test>-->
 
+	
 
 	
 
