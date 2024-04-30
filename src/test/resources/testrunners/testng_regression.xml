@@ -7,39 +7,21 @@
 	<listeners>
 		<listener
 			class-name="com.qa.opencart.listeners.ExtentReportListener" />
-			<listener
+		<listener
 			class-name="com.qa.opencart.listeners.TestAllureListener" />
 		<listener
-			class-name="com.qa.opencart.listeners.AnnotationTransformer" /> 
+			class-name="com.qa.opencart.listeners.AnnotationTransformer" />
 	</listeners>
 
 
 	<test name="Login Page Test chrome">
 		<parameter name="browser" value="chrome">
 			<classes>
-		 		<class name="com.qa.opencart.tests.LoginPageTest" />
+				<class name="com.qa.opencart.tests.LoginPageTest" />
 			</classes>
 		</parameter>
 	</test>
 	
-	<test name="Reg Page Test">
-		<parameter name="browser" value="chrome" />
-		<classes>
-			<class name="com.qa.opencart.tests.RegistrationPageTest" />
-		</classes>
-	</test>
-	
-	<!--<test name="ProductInfo Page Test">
-		
-		<parameter name="browser" value="chrome" />
-		<classes>
-			<class name="com.qa.opencart.tests.ProductPageInfoTest" />
-		</classes>
-	</test>
-
-
- 	
-
 	<test name="Account Page Test">
 		<parameter name="browser" value="chrome">
 			<classes>
@@ -48,6 +30,27 @@
 		</parameter>
 	</test>
 
+
+
+	<!--<test name="ProductInfo Page Test">
+		
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.opencart.tests.ProductPageInfoTest" />
+		</classes>
+	</test>
+
+<test name="Reg Page Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.opencart.tests.RegistrationPageTest" />
+		</classes>
+	</test>
+
+
+ 	
+
+	
 	<test name="Search Results Page Test">
 		<parameter name="browser" value="chrome" />
 		
@@ -55,10 +58,6 @@
 			<class name="com.qa.opencart.tests.SearchResultsPageTest" />
 		</classes>
 	</test>-->
-
-	
-
-	
 
 
 </suite>
