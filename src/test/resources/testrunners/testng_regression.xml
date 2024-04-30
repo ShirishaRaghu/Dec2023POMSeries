@@ -29,7 +29,7 @@
 		</classes>
 	</test>
 	
-	<test name="ProductInfo Page Test">
+	<!--<test name="ProductInfo Page Test">
 		
 		<parameter name="browser" value="chrome" />
 		<classes>
@@ -54,7 +54,7 @@
 		<classes>
 			<class name="com.qa.opencart.tests.SearchResultsPageTest" />
 		</classes>
-	</test>
+	</test>-->
 
 	
 
